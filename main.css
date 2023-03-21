@@ -1,0 +1,189 @@
+:root{
+    --primary-color: #fffaf2;
+    --secondary-color: #5e5043;
+    --hover-color: #6366f1; 
+    --form-inside-color: #f5efe6;
+}
+
+
+body{
+    background-color: var(--primary-color);
+    margin: 0 auto;
+    /* font-family: 'ITC Souvenir',sans-serif; */
+    font-family: 'Libre Baskerville', serif;
+}
+
+.head-container{
+    background-color: var(--secondary-color);
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    height: 75vh;
+    color: white;
+    text-align: center;
+    position: relative;
+    background-image: url(/images/tablet.webp), url(/images/headphones.webp);
+    background-position: -25rem -10rem, 65rem -2rem;
+    background-repeat: no-repeat;
+}
+
+.right-arrow-img-nav{
+    margin-left: 2rem;
+    width: 25px;
+}
+
+.inline-navs{
+    display: inline;
+}
+
+.inline-item{
+    display: inline;
+}
+
+.list-elements{
+    margin-left: 1rem;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pesto-heading{
+    font-family: 'TT Hoves',sans-serif;
+}
+
+h1{
+    font-family: 'Libre Baskerville', serif;
+    line-height: 1.2em;
+    font-weight: 700;
+    letter-spacing: -.01em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    width: 50%; 
+}
+
+.form-data{
+    margin: 1rem;
+    width: 18rem;
+}
+
+.apply-arrow{
+    float: right;
+}
+
+.apply-button{
+    margin: 1rem;
+    width: 40rem;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.apply-button:hover{
+    background-color: var(--hover-color);
+    cursor: pointer;
+}
+
+.form-container{
+    text-align: center;
+    background-color: var(--primary-color);
+    margin-left: 20rem;
+    margin-right: 20rem;
+    /* margin-top: 1rem; */
+    padding: 3rem;
+    border-radius: 1rem;
+    position: absolute;
+    top: 20rem;
+    left: -2rem;
+    box-shadow: 5px 5px 15px rgb(164, 141, 141);
+}
+
+.apply-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#apply-btn-text{
+    float: left;
+}
+
+.developer-button{
+    background-color: #262626;
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+    margin: 1rem;
+    color: white;
+}
+
+.developer-button:hover{
+    background-color: var(--hover-color);
+    cursor: pointer;
+}
+
+.form-data{
+    height: 56px;
+    margin-bottom: 0;
+    padding-left: 20px;
+    border: 0.5px solid rgba(229,224,215,.4);
+    border-radius: 10px;
+    background-color: var(--form-inside-color);
+    box-shadow: 0 0 0 0 transparent;
+    border-radius: 1rem; 
+}
+
+#flower-pot{
+    position: absolute;
+    top: -1rem;
+    left: -22rem;
+}
+
+#tumbler{
+    position: absolute;
+    right: -20rem;
+    top: 10rem;
+}
+
+.pesto-heading{
+    margin: 1rem;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-subtext{
+    color: rgb(151, 141, 127);
+    float: left;
+    margin-left: 1rem;
+}
+
+.secondary-container{
+    margin-top: 12rem;
+}
+
+.secondary-nav-items{
+    display: inline;
+    margin-left: 5rem;
+}
+
+.horizontal-line{
+    width: 83%;
+    border-bottom: 1px solid rgb(174, 144, 144);
+    margin-left: 6rem;
+}
+
+.subtext-secondary-nav{
+    width: 30%;
+}
+
+.callback-btn{
+    width: 15%;
+}
